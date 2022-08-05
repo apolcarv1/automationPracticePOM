@@ -3,12 +3,10 @@ package co.com.choucair.proyecto.sura.helpers;
 public class Constant {
 
     private Constant(){}
-    public static final String USER_INPUT = "User";
-    public static final String PASSWORD_INPUT = "Password";
+
 
     /** CONFIGURACIONES_BASICAS */
-    public static final String PATH_CONFIGURATION_PROPERTIES = "serenity.properties";
-    public static final String PATH_DRIVER_CHROME = "./src/test/resources/windows/chromedriver.exe";
+
     public static final String PAGINA_WEB_URL = "environments.default.webdriver.base.url";
 
     /** TIEMPOS_DE_ESPERAS */
