@@ -14,8 +14,8 @@ public class RegistroStep {
     BusinessControllerWeb businessControllerWeb;
     BusinessControllerComparation businessControllerComparation;
 
-    @Given("^que el usuario ingresa a la pagina web para la creacion de una cuenta en automationpractice$")
-    public void queElUsuarioIngresaALaPaginaWebParaLaCreacionDeUnaCuentaEnAutomationpractice() {
+    @Given("que el usuario ingresa a la pagina automation practice para la creacion de una cuenta")
+    public void queElUsuarioIngresaALaPaginaAutomationPracticeParaLaCreacionDeUnaCuenta() {
         businessControllerWeb.abrirNavegadorURL();
         businessControllerComparation.validarHomeUI();
     }
@@ -41,4 +41,5 @@ public class RegistroStep {
     public void finalizar() {
         businessControllerWeb.cerrarNavegador();
     }
+
 }
